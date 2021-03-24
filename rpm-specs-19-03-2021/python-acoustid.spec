@@ -14,6 +14,7 @@ Source0:        https://files.pythonhosted.org/packages/source/p/%{oname}/%{onam
 BuildArch:      noarch
 %{?py2:BuildRequires:  python2-devel}
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 Chromaprint and its associated Acoustid Web service make up a

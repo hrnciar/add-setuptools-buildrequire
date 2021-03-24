@@ -32,6 +32,7 @@ of code changes.
 %package -n python3-%{pkgname}
 Summary:        Version control extension for the Django web framework
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       python3-django
 %{?python_provide:%python_provide python3-%{pkgname}}
 

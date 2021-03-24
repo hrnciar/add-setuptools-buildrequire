@@ -26,6 +26,7 @@ Source0:        https://files.pythonhosted.org/packages/source/R/%{srcname}/%{sr
 BuildArch:      noarch
 BuildRequires:  spatialindex-devel
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 BuildRequires:  python3-pytest
 BuildRequires:  python3-numpy

@@ -32,6 +32,7 @@ This package provides documentation of %{pypi_name}.
 Summary:        %{summary} - Python 3 version
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       python3-django
 
 Obsoletes:      python-%{pypi_name} < 2.1.2-5

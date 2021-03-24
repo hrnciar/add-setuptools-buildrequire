@@ -10,6 +10,7 @@ Source0:       http://seb.dbzteam.org/pub/pyinotify/releases/pyinotify-%{version
 Patch01:       pyinotify-0.9.6-epoint.patch
 BuildRequires: gmp-devel
 BuildRequires: python%{python3_pkgversion}-devel
+BuildRequires: python%{python3_pkgversion}-setuptools
 BuildArch:     noarch
 %global _description \
 This is a Python module for watching filesystems changes. pyinotify \

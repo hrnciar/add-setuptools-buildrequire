@@ -11,6 +11,7 @@ Source0:    https://files.pythonhosted.org/packages/source/F/%{mod_name}/%{mod_n
 BuildArch:  noarch
 
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 
 %description
 Flask Simple user session protection.

@@ -23,6 +23,7 @@ BuildArch:      noarch
 BuildRequires:  python2-devel python2-redis
 %endif
 BuildRequires:  python3-devel python3-redis
+BuildRequires:  python3-setuptools
 BuildRequires:  redis-devel gcc
 BuildRequires:  redis >= 4
 Requires:       redis >= 4

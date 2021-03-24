@@ -31,6 +31,7 @@ BuildRequires:  python2-devel
 Requires:       pyparsing
 %else
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pyparsing
 Requires:       python3-pyparsing
 Requires:       python3-setuptools

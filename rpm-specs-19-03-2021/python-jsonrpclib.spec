@@ -12,6 +12,7 @@ Source0:        https://files.pythonhosted.org/packages/source/j/%{upstream}/%{u
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %global _description\
 This project is an implementation of the JSON-RPC v2.0 specification\

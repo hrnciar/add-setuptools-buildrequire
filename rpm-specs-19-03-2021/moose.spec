@@ -47,6 +47,7 @@ BuildRequires:  procps-ng
 BuildRequires:  openssl
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-numpy
 BuildRequires:  python3-libsbml
 

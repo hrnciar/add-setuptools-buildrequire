@@ -9,6 +9,7 @@ Source0:        https://github.com/uvemas/ViTables/archive/v%{version}/vitables-
 
 BuildRequires: make
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-numpy
 BuildRequires:  python3-tables
 BuildRequires:  hdf5-devel

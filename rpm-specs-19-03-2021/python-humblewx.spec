@@ -19,6 +19,7 @@ Library that simplifies creating user interfaces with wxPython.
 %package -n python%{python3_pkgversion}-%{srcname}
 Summary:        %{sum}
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 Requires:       python3-wxpython4
 %{?python_provide:%python_provide python%{python3_pkgversion}-%{srcname}}
 

@@ -11,6 +11,7 @@ Patch1:         legofy-format.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       python3-click
 Requires:       python3-pillow
 

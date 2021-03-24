@@ -11,6 +11,7 @@ Source0:        %{url}/archive/%{version}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  %{py3_dist setuptools}
 BuildRequires:  %{py3_dist jinja2}
 BuildRequires:  %{py3_dist pytest}
 BuildRequires:  %{py3_dist requests}

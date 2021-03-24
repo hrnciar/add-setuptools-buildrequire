@@ -11,6 +11,7 @@ Source0:        https://github.com/mypaint/mypaint/releases/download/v%{version}
 BuildRequires:  gcc, gcc-c++
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-scons >= 3.0
 BuildRequires:  swig
 BuildRequires:  desktop-file-utils

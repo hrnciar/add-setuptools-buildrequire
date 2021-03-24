@@ -24,6 +24,7 @@ just about anything.\
 %package -n python3-%{pypi_name}
 Summary:        General-purpose retrying library in Python
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       python3-six
 
 %description -n python3-%{pypi_name}

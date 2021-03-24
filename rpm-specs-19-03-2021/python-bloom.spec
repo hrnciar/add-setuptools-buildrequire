@@ -32,6 +32,7 @@ HTML documentation for the '%{srcname}' python module
 Summary:        %{summary}
 BuildRequires:  git
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-empy
 BuildRequires:  python%{python3_pkgversion}-nose
 BuildRequires:  python%{python3_pkgversion}-rosdep >= 0.15.0

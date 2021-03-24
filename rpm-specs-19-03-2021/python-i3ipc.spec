@@ -18,6 +18,7 @@ Patch0:         0001-Adapt-test-launcher-for-our-envirnoment.patch
 Patch1:         %{url}/commit/4cc59d5550eab1eb3f0679461fd9c86449b407bc.patch#/0002-remove-enum-compat-dependency.patch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 %if %{with tests}
 # Test deps
 BuildRequires:  i3

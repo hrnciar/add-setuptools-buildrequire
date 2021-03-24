@@ -14,6 +14,7 @@ Patch0:         https://bitbucket.org/fenics-project/ffc/commits/8d80c72468282e3
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(pytest)
 BuildRequires:  python3dist(numpy)
 BuildRequires:  python3dist(fenics-fiat) >= %{fenics_version}

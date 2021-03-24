@@ -129,6 +129,7 @@ Requires:       python3-%{lower_name}%{?_isa} = %{version}-%{release}
 %package -n python3-%{lower_name}
 Summary:        %{summary}
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description -n python3-%{lower_name} %_description
 

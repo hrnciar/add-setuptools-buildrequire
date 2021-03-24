@@ -19,6 +19,7 @@ Python bindings for the snappy compression library from Google.
 Summary:        Python library for the snappy compression library from Google
 BuildRequires:  gcc-c++
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-cffi
 BuildRequires:  snappy-devel
 Requires:       python3-cffi

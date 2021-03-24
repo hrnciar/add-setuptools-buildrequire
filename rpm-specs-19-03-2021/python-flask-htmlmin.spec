@@ -16,6 +16,7 @@ BuildArch:  noarch
 
 BuildRequires:  python%{python3_pkgversion}-htmlmin
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-pytest-runner
 
 %description

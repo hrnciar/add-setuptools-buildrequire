@@ -30,6 +30,7 @@ BuildRequires:  pango-devel
 BuildRequires:  cairo-devel
 BuildRequires:  libspiro-devel
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  readline-devel
 BuildRequires:  libappstream-glib
 BuildRequires:  woff2-devel

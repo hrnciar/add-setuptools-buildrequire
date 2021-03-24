@@ -13,6 +13,7 @@ Source0:        https://github.com/poezio/%{srcname}/archive/slix-%{version}/%{n
 
 BuildRequires:  make
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-Cython
 BuildRequires:  gcc
 BuildRequires:  libidn-devel

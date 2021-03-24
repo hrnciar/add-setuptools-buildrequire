@@ -34,6 +34,7 @@ Source:             https://github.com/rogerbinns/apsw/releases/download/%{pkg_v
 
 BuildRequires:      gcc
 BuildRequires:      python%{python3_pkgversion}-devel
+BuildRequires:      python%{python3_pkgversion}-setuptools
 BuildRequires:      sqlite-devel >= %{sqlite_version}
 
 Requires:           sqlite >= %{sqlite_version}

@@ -18,6 +18,7 @@ Summary:	SPDX license list database
 %{?python_provide:%python_provide python3-%{srcname}}
 
 BuildRequires:	python%{python3_pkgversion}-devel
+BuildRequires:	python%{python3_pkgversion}-setuptools
 
 %description -n python%{python3_pkgversion}-%{srcname}
 A Python module incorporating an interface to the SPDX license database.

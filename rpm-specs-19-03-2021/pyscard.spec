@@ -24,6 +24,7 @@ Python wrapper module.
 %package -n python%{python3_pkgversion}-%{name}
 Summary:        A framework for building smart card aware applications in Python
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 Requires:       pcsc-lite
 %{?python_provide:%python_provide python%{python3_pkgversion}-%{name}}
 

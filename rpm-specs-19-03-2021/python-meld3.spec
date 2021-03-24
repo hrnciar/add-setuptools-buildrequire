@@ -11,6 +11,7 @@ URL: https://github.com/Supervisor/%{srcname}
 Source0: https://files.pythonhosted.org/packages/source/m/%{srcname}/%{srcname}-%{version}.tar.gz
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildArch: noarch
 
 %description

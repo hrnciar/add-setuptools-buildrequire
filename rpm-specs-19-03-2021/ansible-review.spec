@@ -20,6 +20,7 @@ Tool to review Ansible playbooks, roles, and inventory and suggest improvements.
 
 Summary:        %summary
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-mock
 BuildRequires:  python3-nose
 Requires:       python3-ansible-lint >= 3.4.19-2

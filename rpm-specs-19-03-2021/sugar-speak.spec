@@ -10,6 +10,7 @@ BuildArch:      noarch
 
 BuildRequires:  gettext
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  sugar-toolkit-gtk3
 Requires:       espeak-ng
 Requires:       gstreamer-plugins-espeak

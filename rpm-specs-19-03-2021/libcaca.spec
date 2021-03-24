@@ -72,6 +72,7 @@ sprite blitting.
 %package -n python3-caca
 Summary: Python bindings for libcaca
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 
 %description -n python3-caca
 This package contains the python bindings for using libcaca from python.

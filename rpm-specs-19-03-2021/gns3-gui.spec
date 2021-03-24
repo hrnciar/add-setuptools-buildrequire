@@ -16,6 +16,7 @@ Source3:        %{name}.appdata.xml
 BuildArch:      noarch
 
 BuildRequires:  python3-devel 
+BuildRequires:  python3-setuptools
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
 

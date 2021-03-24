@@ -36,6 +36,7 @@ Documentation package.
 
 %package -n     python%{python3_pkgversion}-%{pypi_name}
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-future
 BuildRequires:  python%{python3_pkgversion}-hypothesis
 Requires:       python%{python3_pkgversion}-future

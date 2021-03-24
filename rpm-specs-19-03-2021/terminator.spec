@@ -14,6 +14,7 @@ BuildRequires:  gettext
 BuildRequires:  gtk-update-icon-cache
 BuildRequires:  python3-babel
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest-runner
 
 Requires:       keybinder3

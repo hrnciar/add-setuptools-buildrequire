@@ -38,6 +38,7 @@ pty module.
 Summary:        %{summary}
 %{?python_provide:%python_provide python3-%{modname}}
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
 BuildRequires:  python3-ptyprocess
 Requires:       python3-ptyprocess

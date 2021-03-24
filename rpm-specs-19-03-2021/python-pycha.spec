@@ -14,6 +14,7 @@ Source1:        chavier.desktop
 BuildArch:      noarch
 BuildRequires:  desktop-file-utils
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 Pycha is a very simple Python package for drawing charts using the great Cairo

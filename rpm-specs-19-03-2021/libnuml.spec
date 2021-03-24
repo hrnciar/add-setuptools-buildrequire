@@ -97,6 +97,7 @@ This package provides static library of libnuml.
 %package -n python3-libnuml
 Summary: Python3 library that fully supports NUML
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 %{?python_provide:%python_provide python3-%{name}}
 %description -n python3-libnuml
 The %{octpkg} python package contains the libraries to 

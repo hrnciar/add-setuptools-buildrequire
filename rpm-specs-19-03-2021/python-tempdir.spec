@@ -23,6 +23,7 @@ BuildArch: noarch
 %package -n python3-%{pname}
 Summary: %{summary}
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 %{?python_provide:%python_provide python3-%{pname}}
 
 %description -n python3-%{pname}

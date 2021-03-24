@@ -48,6 +48,7 @@ is invalidated or expired.
 %package -n python%{python3_pkgversion}-%{modulename}
 Summary:        A cached-property for decorating methods in Python classes.
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-dateutil
 BuildRequires:  python%{python3_pkgversion}-freezegun
 BuildRequires:  python%{python3_pkgversion}-pytest

@@ -10,6 +10,7 @@ Source0:        https://github.com/mkleehammer/pyodbc/archive/%{version}.tar.gz#
 BuildRequires:  gcc-c++
 BuildRequires:  unixODBC-devel
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 Recommends: (postgresql-odbc if postgresql-server)
 Recommends: (mariadb-connector-odbc if mariadb-server)

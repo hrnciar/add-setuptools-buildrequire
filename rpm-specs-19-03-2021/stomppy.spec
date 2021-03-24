@@ -11,6 +11,7 @@ Source0:        https://files.pythonhosted.org/packages/source/s/stomp.py/stomp.
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 stomp.py is a Python client library for accessing messaging servers 

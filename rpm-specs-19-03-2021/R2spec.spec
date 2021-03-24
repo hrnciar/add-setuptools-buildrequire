@@ -9,6 +9,7 @@ Source0:        https://fedorahosted.org/releases/r/2/r2spec/R2spec-%{version}.t
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       R python3-jinja2 wget fedora-packager
 Provides:       R2rpm >= 1.0.0
 

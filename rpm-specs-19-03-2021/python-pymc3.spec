@@ -34,6 +34,7 @@ to a large suite of problems.}
 %package -n python3-%{srcname}
 Summary:        %{summary}
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 %if %{with check}
 # Testing is extremely slow
 BuildRequires:  python3-pytest

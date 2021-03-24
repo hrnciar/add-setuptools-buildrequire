@@ -18,6 +18,7 @@ BuildArch:      noarch
 Patch0:         0001-Avoid-bad-locale-usage-upstream-263.patch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 
 %description

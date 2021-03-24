@@ -38,6 +38,7 @@ Patch1:         disable-test-LiveJournalOpenIdTest.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3dist(setuptools)
 
 # Requirements for running social-core
 BuildRequires:  python3dist(requests)

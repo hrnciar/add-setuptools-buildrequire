@@ -20,6 +20,7 @@ Source0:	https://github.com/PyGreSQL/%{name}/archive/%{version}/%{name}-%{versio
 BuildRequires:  gcc
 BuildRequires:	libpq-devel
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 
 # For testsuite
 %if 0%{?runselftest:1}

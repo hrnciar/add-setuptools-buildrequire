@@ -12,6 +12,7 @@ Source0:        https://github.com/facelessuser/soupsieve/archive/%{version}/%{n
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3dist(setuptools)
 %if %{with tests}
 BuildRequires:  python3-pytest
 BuildRequires:  python3dist(lxml)

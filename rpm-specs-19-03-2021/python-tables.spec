@@ -29,6 +29,7 @@ BuildRequires:  bzip2-devel
 BuildRequires:  lzo-devel
 BuildRequires:  blosc-devel >= 1.5.2
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-Cython >= 0.13
 BuildRequires:  python%{python3_pkgversion}-numpy
 BuildRequires:  python%{python3_pkgversion}-numexpr >= 2.4

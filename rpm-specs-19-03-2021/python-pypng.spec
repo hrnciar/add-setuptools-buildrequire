@@ -13,6 +13,7 @@ BuildArch:          noarch
 
 BuildRequires:      /usr/bin/2to3
 BuildRequires:      python3-devel
+BuildRequires:      python3-setuptools
 BuildRequires:      python3-nose
 
 %global _description\

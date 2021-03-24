@@ -34,6 +34,7 @@ BuildArch:      noarch
 Summary:        %{summary}
 BuildRequires: make
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-nose >= 1.1.2
 BuildRequires:  python3-sphinx >= 1.2.2
 BuildRequires:  python3-coverage >= 3.7.1

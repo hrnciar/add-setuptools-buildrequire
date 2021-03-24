@@ -27,6 +27,7 @@ Conflicts:      python2-%{pypi_name} < 3.7.1-4
 Provides:       %{pypi_name} == %{version}-%{release}
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-blinker
 BuildRequires:  python3-sphinx
 BuildRequires:  python3-unidecode

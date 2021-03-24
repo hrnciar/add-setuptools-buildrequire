@@ -18,6 +18,7 @@ BuildRequires:  dbus-glib-devel
 BuildRequires:  ncurses-devel            
 BuildRequires:  xmlto            
 BuildRequires:  python3-devel            
+BuildRequires:  python3-setuptools
 BuildRequires:  gtk3-devel            
 BuildRequires:  python3-scons            
 BuildRequires:  python3-gobject            

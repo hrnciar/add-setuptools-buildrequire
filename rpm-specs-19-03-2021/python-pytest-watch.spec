@@ -24,6 +24,7 @@ BuildArch:      noarch
 Summary:        %{summary}
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       python3-colorama >= 0.3.3
 Requires:       python3-docopt >= 0.6.2
 Requires:       python3-pytest >= 2.6.4

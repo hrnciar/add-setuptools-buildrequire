@@ -15,6 +15,7 @@ Source20:       %{name}.service
 BuildArch:      noarch
 BuildRequires: make
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-tools
 BuildRequires:  python3-sphinx
 BuildRequires:  systemd

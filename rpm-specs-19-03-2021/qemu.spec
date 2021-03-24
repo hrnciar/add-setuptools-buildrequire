@@ -389,6 +389,7 @@ BuildRequires: perl-Test-Harness
 # For making python shebangs versioned
 BuildRequires: /usr/bin/pathfix.py
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 %if %{have_liburing}
 # liburing support. Library isn't built for arm
 BuildRequires: liburing-devel

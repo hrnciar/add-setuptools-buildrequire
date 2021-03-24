@@ -25,6 +25,7 @@ Source0: %{pypi_source}
 BuildRequires: gcc
 BuildRequires: gcc-c++
 BuildRequires: python3-devel
+BuildRequires: %{py3_dist setuptools}
 
 %description %_description
 

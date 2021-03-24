@@ -99,6 +99,7 @@ BuildRequires:	valgrind-devel
 BuildRequires:	libedit-devel
 # We need python3-devel for pathfix.py.
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 
 Requires:	%{name}-libs%{?_isa} = %{version}-%{release}
 

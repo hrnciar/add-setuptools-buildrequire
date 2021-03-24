@@ -20,6 +20,7 @@ to worry about undoing patches at the end of a test.
 Summary:        %{summary}
 
 BuildRequires:  python3-devel
+BuildRequires:  %py3_dist setuptools
 BuildRequires:  %py3_dist pytest
 BuildRequires:  %py3_dist setuptools_scm
 BuildRequires:  %py3_dist pytest-asyncio

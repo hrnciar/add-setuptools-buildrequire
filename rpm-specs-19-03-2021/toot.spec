@@ -13,6 +13,7 @@ Source1:        https://raw.githubusercontent.com/ihabunek/%{modname}/%{version}
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  %{py3_dist pytest} %{py3_dist requests} %{py3_dist wcwidth} %{py3_dist beautifulsoup4}
 
 %description

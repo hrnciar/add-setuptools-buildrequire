@@ -15,6 +15,7 @@ BuildArch:      noarch
 BuildRequires:  git >= 2.26.0
 BuildRequires:  python3-rpm-macros
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 #
 Requires:       git >= 2.26.0
 

@@ -14,6 +14,7 @@ Patch2:         pbkdf2-remove-shebang.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 A pure Python Implementation of the password-based key derivation function,

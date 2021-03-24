@@ -9,6 +9,7 @@ Source0:        https://github.com/micahflee/%{name}/archive/v%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-qt5
 BuildRequires:  desktop-file-utils
 Requires:       python3-qt5

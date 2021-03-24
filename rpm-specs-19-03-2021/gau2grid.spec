@@ -12,6 +12,7 @@ Patch0:         gau2grid-1.3.1-py3.patch
 BuildRequires:  cmake
 BuildRequires:  gcc-c++
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-numpy
 
 %description

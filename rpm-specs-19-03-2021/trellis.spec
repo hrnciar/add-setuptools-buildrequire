@@ -24,6 +24,7 @@ BuildRequires: make
 BuildRequires: cmake
 BuildRequires: gcc-c++
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: boost-python3-devel
 # for building docs:
 BuildRequires: python-sphinx-latex

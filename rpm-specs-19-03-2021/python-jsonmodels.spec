@@ -18,6 +18,7 @@ Url: https://github.com/beregond/jsonmodels
 
 %if %{is_install_py3}
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-invoke
 %endif
 

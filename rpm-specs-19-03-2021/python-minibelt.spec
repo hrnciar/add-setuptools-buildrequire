@@ -13,6 +13,7 @@ Patch0:         minibelt-encoding.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 One-file utility module filled with helper functions for day to day

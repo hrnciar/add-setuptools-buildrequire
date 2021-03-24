@@ -15,6 +15,7 @@ Patch0:     0001-Fix-sphinx-extension-conflict.patch
 BuildArch:  noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-mock
 BuildRequires:  python3-nose
 

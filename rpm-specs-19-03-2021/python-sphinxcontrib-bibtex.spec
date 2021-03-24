@@ -12,6 +12,7 @@ Source0:        %{url}/archive/%{version}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  %{py3_dist setuptools}
 BuildRequires:  python3-docs
 BuildRequires:  python-sphinx-doc
 BuildRequires:  %{py3_dist pybtex}

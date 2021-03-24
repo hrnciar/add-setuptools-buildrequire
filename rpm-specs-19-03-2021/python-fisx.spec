@@ -8,6 +8,7 @@ URL:            https://github.com/vasole/fisx
 Source0:        %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  python3-devel
+BuildRequires:  %py3_dist setuptools
 BuildRequires:  gcc
 BuildRequires:  gcc-c++
 BuildRequires:  %py3_dist cython

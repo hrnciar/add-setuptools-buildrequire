@@ -9,6 +9,7 @@ Source0:        https://github.com/projectatomic/commctl/archive/%{version}.tar.
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 # For tests
 BuildRequires:  python3-coverage

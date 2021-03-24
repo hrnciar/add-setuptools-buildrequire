@@ -17,6 +17,7 @@ Source0:        https://github.com/simpleapples/flask-wtf-decorators/archive/%{c
 %package -n python3-%{srcname}
 Summary:       %{summary}
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-flask-wtf
 
 

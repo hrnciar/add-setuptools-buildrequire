@@ -18,6 +18,7 @@ Patch0:         fix-desktop-exec.patch
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-qt5-devel
 BuildRequires:  gettext
 

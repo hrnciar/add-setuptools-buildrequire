@@ -14,6 +14,7 @@ Source0:        https://github.com/%{pypi_name}/%{pypi_name}/archive/v%{version}
 BuildArch:      noarch
 # Let's keep Requires and BuildRequires sorted alphabetically
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-sphinx
 
 %description

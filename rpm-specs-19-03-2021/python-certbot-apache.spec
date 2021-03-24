@@ -18,6 +18,7 @@ Source2:        gpg-A2CFB51FA275A7286234E7B24D17C995CD9775F2.gpg
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 BuildRequires: python3-acme >= 0.29.0
 BuildRequires: python3-augeas

@@ -13,6 +13,7 @@ URL:        https://github.com/ValvePython/steam
 Source0:    %{url}/archive/v%{version}/%{pypi_name}-%{version}.tar.gz
 
 BuildRequires: python3-devel
+BuildRequires: python3dist(setuptools)
 BuildRequires: python3-pyyaml >= 5.1
 BuildRequires: python3dist(cachetools) >= 3.0.0
 BuildRequires: python3dist(gevent-eventemitter) >= 2.1

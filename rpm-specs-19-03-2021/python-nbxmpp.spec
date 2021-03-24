@@ -10,6 +10,7 @@ URL:            https://dev.gajim.org/gajim/python-nbxmpp/
 Source0:        https://dev.gajim.org/gajim/python-nbxmpp/-/archive/nbxmpp-%{version}/python-nbxmpp-nbxmpp-%{version}.tar.bz2
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %global desc python-nbxmpp is a Python library that provides a way for Python applications\
 to use Jabber/XMPP networks in a non-blocking way.

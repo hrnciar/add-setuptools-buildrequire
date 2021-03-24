@@ -21,6 +21,7 @@ Python wrapper for running a display inside X virtual framebuffer (Xvfb)
 Summary:        run headless display inside X virtual framebuffer (Xvfb)
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-mock
 BuildRequires: python3-nose
 BuildRequires: xorg-x11-server-Xvfb

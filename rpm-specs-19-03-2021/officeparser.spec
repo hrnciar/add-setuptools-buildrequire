@@ -29,6 +29,7 @@ Patch4:         officeparser-04_string_conversion.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 
 %description

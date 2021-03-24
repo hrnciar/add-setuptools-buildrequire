@@ -47,6 +47,7 @@ This package contains the HTML documentation.
 %package -n python3-%{pname}
 Summary: Perform colorspace conversions accurately and easily
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-numpy
 Requires: python3-numpy
 %{?python_provide:%python_provide python3-%{pname}}

@@ -9,6 +9,7 @@ Source0:        https://files.salecker.org/%{name}/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  desktop-file-utils
 
 Requires:       kismet

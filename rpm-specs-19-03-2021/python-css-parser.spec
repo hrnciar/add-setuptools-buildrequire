@@ -14,6 +14,7 @@ Patch0:         0001-test-relax-assertRaisesMsg-to-match-longer-strings.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 # for tests
 BuildRequires:  python3-chardet
 

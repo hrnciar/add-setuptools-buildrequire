@@ -15,6 +15,7 @@ BuildArch:      noarch
 BuildRequires:  asciidoc >= 8.5.0
 BuildRequires:  dblatex
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  texlive-multirow
 BuildRequires:  texlive-upquote
 BuildRequires: make

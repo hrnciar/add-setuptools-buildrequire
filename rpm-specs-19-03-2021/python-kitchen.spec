@@ -14,6 +14,7 @@ BuildArch:      noarch
 BuildRequires:  langpacks-pt_BR
 
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-nose
 BuildRequires:  python%{python3_pkgversion}-test
 BuildRequires:  python%{python3_pkgversion}-chardet

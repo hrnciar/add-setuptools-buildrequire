@@ -20,6 +20,7 @@ Requires: python%{python3_pkgversion}-spdx-lookup
 Requires: python%{python3_pkgversion}-packaging
 %endif
 BuildRequires: python%{python3_pkgversion}-devel
+BuildRequires: python%{python3_pkgversion}-setuptools
 %if 0%{?fedora} || 0%{?rhel_version} >= 8
 Recommends: python%{python3_pkgversion}-upt-fedora
 Recommends: python%{python3_pkgversion}-upt-pypi

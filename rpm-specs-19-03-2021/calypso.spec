@@ -19,6 +19,7 @@ Source4: %{name}.systemd
 Patch0: %{name}-daemon.patch
 BuildRequires: python3-daemon
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-iniparse
 BuildRequires: python3-vobject
 BuildRequires: systemd-rpm-macros

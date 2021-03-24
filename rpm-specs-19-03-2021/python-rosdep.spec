@@ -74,6 +74,7 @@ specify a dependency on 'boost'.
 Summary:        %{summary}
 BuildRequires:  python%{python3_pkgversion}-catkin_pkg >= 0.4.0
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-mock
 BuildRequires:  python%{python3_pkgversion}-nose
 BuildRequires:  python%{python3_pkgversion}-PyYAML >= 3.1

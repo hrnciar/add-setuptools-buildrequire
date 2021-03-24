@@ -14,6 +14,7 @@ Source0:       https://pypi.python.org/packages/source/c/%{srcname}/%{srcname}-%
 
 BuildArch:     noarch
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: cmigemo-devel
 BuildRequires: python3-six
 

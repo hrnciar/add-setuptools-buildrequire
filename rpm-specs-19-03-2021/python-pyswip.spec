@@ -12,6 +12,7 @@ Source0:        https://github.com/yuce/pyswip/archive/v%{version}/%{srcname}-%{
 BuildArch:      noarch
 BuildRequires:  pl-devel
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
 
 %description

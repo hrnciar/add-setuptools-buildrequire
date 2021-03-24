@@ -18,6 +18,7 @@ calls are forwarded to the correct interface.
 Summary: %{summary}
 BuildRequires: make
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-sphinx
 BuildRequires:  python3-sphinx_rtd_theme
 Requires: python3-dbus

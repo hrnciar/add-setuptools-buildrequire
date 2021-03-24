@@ -38,6 +38,7 @@ Summary: %{summary}
 %{?python_provide:%python_provide python3-%{srcname}}
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-twisted
 BuildRequires:  python3-wrapt
 

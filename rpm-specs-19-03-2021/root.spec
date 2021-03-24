@@ -211,6 +211,7 @@ BuildRequires:	postgresql-devel
 BuildRequires:	python2-devel
 %endif
 BuildRequires:	python%{python3_pkgversion}-devel
+BuildRequires:	python%{python3_pkgversion}-setuptools
 %if %{root7}
 %ifarch %{qt5_qtwebengine_arches}
 BuildRequires:	qt5-qtbase-devel

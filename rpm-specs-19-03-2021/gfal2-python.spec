@@ -57,6 +57,7 @@ BuildRequires:		epydoc
 # Python 3
 %if 0%{?with_python3} 
 BuildRequires:      python3-devel
+BuildRequires:      python3-setuptools
 BuildRequires:      boost-python3-devel
 %endif
 

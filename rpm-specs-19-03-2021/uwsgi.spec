@@ -175,6 +175,7 @@ BuildRequires:  python-greenlet-devel
 %endif
 %if %{with python3}
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-greenlet-devel
 %endif
 %if %{with python3_other}

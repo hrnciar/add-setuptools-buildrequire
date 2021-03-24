@@ -16,6 +16,7 @@ Source0:        %{url}/archive/v%{version}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-blinker
 BuildRequires:  python3-click
 BuildRequires:  python3-crochet

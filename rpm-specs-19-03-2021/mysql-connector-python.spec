@@ -25,6 +25,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python3-devel >= 3
+BuildRequires:  python3-setuptools
 %if %{with_tests}
 # for unittest
 BuildRequires:  mysql-server

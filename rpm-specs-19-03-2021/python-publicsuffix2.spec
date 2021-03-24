@@ -28,6 +28,7 @@ BuildArch: noarch
 %package -n python3-%{pypi_name}
 Summary: %{summary}
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-requests
 Requires: publicsuffix-list
 

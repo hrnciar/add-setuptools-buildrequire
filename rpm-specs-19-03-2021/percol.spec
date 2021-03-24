@@ -17,6 +17,7 @@ Source0:       https://github.com/mooz/%{name}/archive/v%{version}.tar.gz#/%{nam
 
 BuildArch:     noarch
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-cmigemo
 # BuildRequires to run test
 BuildRequires: python3-six python3-cmigemo

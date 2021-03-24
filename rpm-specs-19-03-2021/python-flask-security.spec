@@ -13,6 +13,7 @@ BuildArch:  noarch
 
 BuildRequires: make
 BuildRequires: python%{python3_pkgversion}-devel
+BuildRequires: python%{python3_pkgversion}-setuptools
 BuildRequires: python%{python3_pkgversion}-pytest-runner
 BuildRequires: python%{python3_pkgversion}-babel
 BuildRequires: python%{python3_pkgversion}-flask-sphinx-themes

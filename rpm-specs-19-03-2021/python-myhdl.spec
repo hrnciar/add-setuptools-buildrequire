@@ -10,6 +10,7 @@ URL:            http://myhdl.org
 Source0:        https://files.pythonhosted.org/packages/source/m/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 %{name} is a Python hardware description and verification language that 

@@ -11,6 +11,7 @@ Source0:        https://files.pythonhosted.org/packages/1a/a9/cdd1a19889f78ddd45
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  pulseaudio-libs
 
 %description

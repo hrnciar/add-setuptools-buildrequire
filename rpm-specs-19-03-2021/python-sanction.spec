@@ -12,6 +12,7 @@ Source0:            http://pypi.python.org/packages/source/s/%{modname}/%{modnam
 BuildArch:          noarch
 
 BuildRequires:      python3-devel
+BuildRequires:      python3-setuptools
 BuildRequires:      python3-nose
 
 

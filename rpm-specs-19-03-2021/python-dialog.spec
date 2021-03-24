@@ -12,6 +12,7 @@ Source0:        %{pypi_source %{upstream_name}}
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %global _description %{expand:
 A Python interface to the Unix dialog utility, designed to provide an

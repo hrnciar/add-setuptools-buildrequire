@@ -24,6 +24,7 @@ Works with ELM327 OBD-II adapters, and is fit for the Raspberry Pi.
 Summary:       %{summary}
 %{?python_provide:%python_provide python3-%{srcname}}
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 %if %{with check}
 BuildRequires: python3-pint >= 0.7
 BuildRequires: python3-pytest

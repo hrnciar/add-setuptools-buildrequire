@@ -35,6 +35,7 @@ Summary:        %{summary}
 %{?python_provide:%python_provide python3-music21}
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-jsonpickle
 BuildRequires:  python3-chardet
 BuildRequires:  python3-mock

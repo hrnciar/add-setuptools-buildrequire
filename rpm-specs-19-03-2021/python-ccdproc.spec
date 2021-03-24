@@ -14,6 +14,7 @@ Source0:        https://files.pythonhosted.org/packages/source/c/%{srcname}/%{sr
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-astropy python3-astropy-helpers
 BuildRequires:  python3-astroscrappy
 BuildRequires:  python3-reproject

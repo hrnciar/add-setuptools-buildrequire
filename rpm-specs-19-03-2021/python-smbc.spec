@@ -15,6 +15,7 @@ License:       GPLv2+
 BuildRequires: gcc
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: libsmbclient-devel >= 3.2
 
 %description

@@ -11,6 +11,7 @@ URL:            https://github.com/trezor/python-mnemonic
 Source0:        https://files.pythonhosted.org/packages/source/m/%{srcname}/%{srcname}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 This BIP describes the implementation of a mnemonic code or mnemonic sentence -

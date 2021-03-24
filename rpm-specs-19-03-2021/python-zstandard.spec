@@ -30,6 +30,7 @@ Summary: %{summary}
 BuildRequires: gcc
 BuildRequires: libzstd-devel
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-cffi
 %if %{with check}
 BuildRequires: python3-hypothesis

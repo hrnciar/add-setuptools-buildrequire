@@ -18,6 +18,7 @@ It allows the easy creation of Relay-compliant servers using GraphQL-core.
 Summary:        %{summary}
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-graphql-core
 BuildRequires:  python3-pytest
 BuildRequires:  python3-pytest-asyncio

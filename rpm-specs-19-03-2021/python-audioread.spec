@@ -15,6 +15,7 @@ BuildRequires:  python2-devel
 Buildrequires:  python2-pytest-runner
 %endif
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Buildrequires:  python3-pytest-runner
 %global _description \
 Decode audio files using whichever backend is available. Among\

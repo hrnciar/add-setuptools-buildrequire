@@ -14,6 +14,7 @@ Source1:        https://raw.githubusercontent.com/redodo/tortilla/master/LICENSE
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 A tiny library for creating wrappers around web APIs

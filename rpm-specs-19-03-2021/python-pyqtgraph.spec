@@ -15,6 +15,7 @@ Source1:        pyqtgraph-test-data-5498050.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  %{py3_dist setuptools}
 # For Docs
 BuildRequires:  make %{py3_dist sphinx sphinx_rtd_theme}
 # For Tests

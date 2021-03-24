@@ -12,6 +12,7 @@ Source0:        https://files.pythonhosted.org/packages/source/p/%{srcname}/%{sr
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 A Python library for generating one time passwords according to

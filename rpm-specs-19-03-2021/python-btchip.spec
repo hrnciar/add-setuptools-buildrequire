@@ -33,6 +33,7 @@ BuildRequires: systemd
 %package -n python3-%{libname}
 Summary: %{sum}
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 Requires: python3-hidapi hidapi >= 0.7.99
 Requires: python3-mnemonic python-%{libname}-common
 %{?python_provide:%python_provide python3-%{libname}}

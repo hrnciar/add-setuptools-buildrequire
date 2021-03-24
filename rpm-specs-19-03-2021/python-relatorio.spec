@@ -13,6 +13,7 @@ Source0:        https://files.pythonhosted.org/packages/source/r/%{module_name}/
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 
 

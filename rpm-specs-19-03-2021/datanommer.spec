@@ -10,6 +10,7 @@ BuildArch:        noarch
 
 
 BuildRequires:    python3-devel
+BuildRequires:    python3-setuptools
 BuildRequires:    python3-datanommer-models
 BuildRequires:    python3-datanommer-consumer
 BuildRequires:    datanommer-commands

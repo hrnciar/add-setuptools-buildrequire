@@ -13,6 +13,7 @@ Source0:        https://files.pythonhosted.org/packages/6d/49/%{pypi_hash}/%{pyp
 
 BuildArch:      noarch
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-pytest
 BuildRequires:  python%{python3_pkgversion}-pyyaml
 BuildRequires:  python%{python3_pkgversion}-pytest-runner

@@ -13,6 +13,7 @@ Source:         %{url}/archive/v%{version}/%{github_name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 Requires:       openvpn
 %if 0%{?fedora} || 0%{?.el8}

@@ -28,6 +28,7 @@ BuildRequires:  python2-paste-deploy
 BuildRequires:  python2-six
 %endif
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-paste-deploy
 BuildRequires:  python3-six
 

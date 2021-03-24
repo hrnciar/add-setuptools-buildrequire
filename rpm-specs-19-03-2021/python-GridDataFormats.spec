@@ -24,6 +24,7 @@ Summary: %{summary}
 Requires: python3-numpy
 Recommends: python3-scipy
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-numpy
 %if %{with check}
 BuildRequires: python3-pytest

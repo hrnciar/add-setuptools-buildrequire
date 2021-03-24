@@ -9,6 +9,7 @@ Source0:    https://lab.louiz.org/%{name}/%{name}/-/archive/v%{version}/%{name}-
 
 
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 BuildRequires:	gcc
 Requires:       python3-slixmpp
 Requires:       python3-inotify

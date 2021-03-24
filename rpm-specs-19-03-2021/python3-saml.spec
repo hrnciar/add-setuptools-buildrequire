@@ -9,6 +9,7 @@ Source0:        https://github.com/onelogin/python3-saml/archive/v%{version}/%{n
 
 BuildArch: noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires: %{py3_dist freezegun isodate xmlsec defusedxml}
 Requires: %{py3_dist isodate xmlsec defusedxml}
 

@@ -12,6 +12,7 @@ Source0:        https://github.srcurl.net/%{ghuser}/%{ghname}/v%{version}/%{ghna
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 A small command line tool to simplify releasing software by updating all

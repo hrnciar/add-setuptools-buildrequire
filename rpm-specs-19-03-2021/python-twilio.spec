@@ -19,6 +19,7 @@ Source0:        https://github.com/twilio/twilio-python/archive/%{version}/%{nam
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  %{py3_dist setuptools}
 BuildRequires:  %{py3_dist nose}
 BuildRequires:  %{py3_dist pytz}
 BuildRequires:  %{py3_dist six}

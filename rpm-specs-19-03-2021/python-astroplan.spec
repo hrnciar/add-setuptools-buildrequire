@@ -25,6 +25,7 @@ life as an observational astronomer a little less infuriating.}
 %package -n python3-%{srcname}
 Summary:        %{summary}
 BuildRequires:  python3-devel
+BuildRequires:  %{py3_dist setuptools}
 # For testing
 BuildRequires:  %{py3_dist pytest}
 BuildRequires:  %{py3_dist astropy}
