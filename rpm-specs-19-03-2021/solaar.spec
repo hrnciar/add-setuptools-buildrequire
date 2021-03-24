@@ -22,7 +22,7 @@ Patch2:         https://patch-diff.githubusercontent.com/raw/pwr-Solaar/Solaar/p
 BuildArch:      noarch
 License:        GPLv2
 
-BuildRequires:  desktop-file-utils python3-devel systemd
+BuildRequires:  desktop-file-utils python3-devel python3-setuptools systemd
 BuildRequires:  gettext
 
 Requires:       hicolor-icon-theme

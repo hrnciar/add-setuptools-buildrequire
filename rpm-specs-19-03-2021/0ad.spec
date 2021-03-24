@@ -121,6 +121,7 @@ BuildRequires:	pkgconfig(mozjs-78)
 
 # bundled mozjs: For build time tests only
 BuildRequires:	python-devel
+BuildRequires:	python3-setuptools
 BuildRequires:	perl-devel
 BuildRequires: make
 

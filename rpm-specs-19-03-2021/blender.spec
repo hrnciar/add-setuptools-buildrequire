@@ -77,6 +77,7 @@ BuildRequires:  pkgconfig(xxf86vm)
 BuildRequires:  python3dist(idna)
 BuildRequires:  python3dist(numpy)
 BuildRequires:  python3dist(requests)
+BuildRequires:  python3dist(setuptools)
 BuildRequires:  subversion-devel
 
 # Compression stuff
