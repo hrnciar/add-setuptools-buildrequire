@@ -8,7 +8,6 @@ PYTHON3_DEVEL = [
     "BuildRequires:[ |\t]*python3-devel",
     "python%{python3_pkgversion}-devel",
     "%{libo_python}-devel", # libreoffice
-    "pyproject-rpm-macros", # packages without python3-devel
 ]
 
 def scan_file(spec_name):
@@ -27,6 +26,8 @@ def scan_file(spec_name):
                 result = re.search("BuildRequires:(.*)" + type_of_br, line)
                 if result:
                     types_of_br[type_of_br] += 1
+                    if result.group(2) == 'setuptools':
+                        return None
     return max(types_of_br, key=types_of_br.get) + "\n"
 
 def add_buildrequire(spec_name, type_of_br_regex):
@@ -39,10 +40,10 @@ def add_buildrequire(spec_name, type_of_br_regex):
                 for python_devel in PYTHON3_DEVEL:
                     result = re.search(python_devel, line)
                     if result:
-                        count += 1
                         # get BuildRequires: and lenght of spaces between package name
                         br_substring = re.search("BuildRequires:[ |\t]*", line)
                         if br_substring:
+                            count += 1
                             # recreate new line by adding most used type of BuildRequires notation
                             updated_line = br_substring.group(0) + type_of_br_regex
                             # replace regex with setuptools
@@ -58,5 +59,10 @@ def add_buildrequire(spec_name, type_of_br_regex):
 
 with open(sys.argv[1], "r") as packages:
     for package in packages:
+        if package.strip() == 'toot':
+            print(f"MANUAL EXCLUDE: {package.strip()}")
         regex = scan_file(package.strip())
+        if regex is None:
+            print(package.strip(), 'already has setuptools BR')
+            continue
         add_buildrequire(package.strip(), regex)
