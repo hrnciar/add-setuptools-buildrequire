@@ -108,8 +108,6 @@ python-crochet
 python-css-parser
 python-dbfread
 python-debrepo
-python-decopatch
-python-descartes
 python-dialog
 python-dijitso
 python-django-contact-form
@@ -167,7 +165,6 @@ python-libsass
 python-libusb1
 python-lmdb
 python-logfury
-python-makefun
 python-managesieve
 python-matrix-nio
 python-meld3
@@ -214,11 +211,8 @@ python-pysignals
 python-pyswip
 python-pyte
 python-pytest-astropy-header
-python-pytest-cases
-python-pytest-harvest
 python-pytest-mock
 python-pytest-repeat
-python-pytest-steps
 python-pytest-watch
 python-pyvo
 python-readthedocs-sphinx-ext
