@@ -19,6 +19,7 @@ The module provides handy URL class for URL parsing and changing.
 Summary:        %{summary}
 
 BuildRequires:  python3-devel
+BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3-Cython
 BuildRequires:  python3dist(pytest)
 BuildRequires:  python3dist(pytest-runner)

@@ -13,6 +13,7 @@ Patch0:			googletrans-relax-dependency-requirements.patch
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(httpx)
 BuildRequires:  python3dist(h2)
 

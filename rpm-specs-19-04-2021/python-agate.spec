@@ -28,6 +28,7 @@ BuildArch:      noarch
 Summary:        %{summary}
 BuildRequires: make
 BuildRequires:  python3-devel
+BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3-nose
 BuildRequires:  python3-coverage >= 3.7.1
 BuildRequires:  python3-mock >= 1.3.0

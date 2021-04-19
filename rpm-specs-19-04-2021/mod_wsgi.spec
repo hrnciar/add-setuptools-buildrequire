@@ -68,6 +68,7 @@ Obsoletes: mod_wsgi < %{version}-%{release}
 Summary:        %summary
 Requires:       httpd-mmn = %{_httpd_mmn}
 BuildRequires:  python3-devel, python3-sphinx, python3-sphinx_rtd_theme
+BuildRequires:  python3-setuptools
 %if 0%{?with_python2} == 0
 Provides: mod_wsgi = %{version}-%{release}
 Provides: mod_wsgi%{?_isa} = %{version}-%{release}

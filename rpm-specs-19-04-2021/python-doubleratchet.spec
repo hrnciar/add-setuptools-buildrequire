@@ -11,6 +11,7 @@ Source0:        https://github.com/Syndace/%{name}/archive/v%{version_no_tilde}.
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-cryptography
 
 

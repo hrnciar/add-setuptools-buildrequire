@@ -18,6 +18,7 @@ Source0:        %{pypi_source}
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(traitlets) >= 4.2
 BuildRequires:  python3dist(jupyter-client) >= 5.3.4
 BuildRequires:  python3dist(nbformat) >= 5

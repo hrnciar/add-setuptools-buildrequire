@@ -14,6 +14,7 @@ Patch0:         version.patch
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-testtools
 
 %description

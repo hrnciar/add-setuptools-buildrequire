@@ -11,6 +11,7 @@ Source0:        https://github.com/python-postgres/fe/archive/v%{version}/%{name
 
 BuildRequires:  gcc
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 python-postgresql is a Python 3 package providing modules to work with

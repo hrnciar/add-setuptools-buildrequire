@@ -16,6 +16,7 @@ Source8:        tmserver.1
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 BuildRequires:  python3-beautifulsoup4
 BuildRequires:  python3-chardet

@@ -20,6 +20,7 @@ and are the same ones that drive the popular XEphem astronomy application.
 Summary:        %{summary}
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
 
 Provides:       python3-pyephem = %{version}-%{release}

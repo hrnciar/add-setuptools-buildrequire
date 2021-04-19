@@ -20,6 +20,7 @@ Summary:	Fedora backend for upt
 %{?python_provide:%python_provide python3-%{srcname}}
 
 BuildRequires: python%{python3_pkgversion}-devel
+BuildRequires: python%{python3_pkgversion}-setuptools
 Requires:	python%{python3_pkgversion}-jinja2
 Requires:	upt
 

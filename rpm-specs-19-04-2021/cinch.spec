@@ -10,6 +10,7 @@ Source0:	http://github.com/RedHatQE/%{name}/archive/v%{version}.tar.gz
 BuildRequires:	ansible
 BuildRequires:	python3-plumbum
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 Requires:	ansible
 Requires:	python3-plumbum
 

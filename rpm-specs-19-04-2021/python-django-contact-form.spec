@@ -18,6 +18,7 @@ An extensible contact-form application for Django
 %package -n python3-%{pkgname}
 Summary:        An extensible contact-form application for Django
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       python3-django
 
 Obsoletes:      python-%{pkgname} < 1.4.2-3

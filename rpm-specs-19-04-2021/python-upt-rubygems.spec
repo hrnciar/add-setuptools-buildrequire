@@ -20,6 +20,7 @@ Summary:	RubyGems front-end for upt
 %{?python_provide:%python_provide python3-%{srcname}}
 
 BuildRequires:python%{python3_pkgversion}-devel
+BuildRequires:python%{python3_pkgversion}-setuptools
 BuildRequires:	python%{python3_pkgversion}-requests-mock
 Requires:	python%{python3_pkgversion}-requests
 Requires:	python%{python3_pkgversion}-semver

@@ -23,6 +23,7 @@ Summary:        A generic tagging application for Django projects
 %{?python_provide:%python_provide python3-django-tagging}
 Requires:       python3-django
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description -n python3-django-tagging
 A generic tagging application for Django projects, which allows association

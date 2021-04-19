@@ -25,6 +25,7 @@ SOURCE2:        https://raw.githubusercontent.com/methane/wsaccel/master/tests/t
 Summary:        Accelerator for ws4py and AutobahnPython
 BuildRequires:  gcc
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-Cython
 BuildRequires:  python3-pytest
 %{?python_provide:%python_provide python3-%{srcname}}

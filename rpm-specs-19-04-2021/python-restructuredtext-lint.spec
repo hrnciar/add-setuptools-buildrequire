@@ -27,6 +27,7 @@ BuildArch:      noarch
 Summary:        %{summary}
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-nose >= 1.3.0
 BuildRequires:  python3-PyYAML >= 3.11
 BuildRequires:  python3-docutils >= 0.11

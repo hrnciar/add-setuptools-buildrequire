@@ -24,6 +24,7 @@ BuildArch:  noarch
 BuildRequires: make
 BuildRequires: systemd-rpm-macros
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: selinux-policy
 BuildRequires: selinux-policy-devel
 

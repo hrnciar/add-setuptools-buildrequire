@@ -12,6 +12,7 @@ Summary:	%{sum}
 BuildRequires:  gcc
 BuildRequires:	portaudio-devel
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 
 %description
 PyAudio provides Python bindings for PortAudio, the cross-platform audio I/O

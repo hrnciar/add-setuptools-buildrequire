@@ -14,6 +14,7 @@ BuildArch:      noarch
 BuildRequires: make
 BuildRequires:  python3-sphinx
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 EditorConfig Python Core provides the same functionality as the EditorConfig C

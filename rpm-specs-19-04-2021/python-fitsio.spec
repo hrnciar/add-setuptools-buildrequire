@@ -19,6 +19,7 @@ BuildRequires:  cfitsio-devel
 BuildRequires:  gcc
 # Python 3
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-numpy
 
 

@@ -16,6 +16,7 @@ BuildArch:      noarch
 BuildRequires: make
 BuildRequires:  perl-macros
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-nose
 # For building documentation
 %if %{with_doc}

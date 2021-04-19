@@ -12,6 +12,7 @@ Source0:            https://pypi.io/packages/source/c/%{modname}/%{modname}-%{ve
 BuildArch:          noarch
 
 BuildRequires:      python3-devel
+BuildRequires:      python3-setuptools
 
 %global _description\
 contextlib2 is a backport of the standard library's contextlib module to\

@@ -17,6 +17,7 @@ Source0:        https://github.com/mattrobenolt/jinja2-cli/archive/0.7.0/jinja2-
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
 BuildRequires:  python3-jinja2
 

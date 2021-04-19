@@ -13,6 +13,7 @@ BuildRequires:  hdf5-devel
 BuildRequires:  liblzf-devel
 BuildRequires:  python%{python3_pkgversion}-Cython >= 0.23
 BuildRequires:  python%{python3_pkgversion}-devel >= 3.2
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-cached_property
 BuildRequires:  python%{python3_pkgversion}-numpy >= 1.7
 BuildRequires:  python%{python3_pkgversion}-pkgconfig

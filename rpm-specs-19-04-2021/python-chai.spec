@@ -21,6 +21,7 @@ Summary:            Easy to use mocking/stub framework
 %{?python_provide:%python_provide python%{python3_pkgversion}-%{modname}}
 
 BuildRequires:      python%{python3_pkgversion}-devel
+BuildRequires:      python%{python3_pkgversion}-setuptools
 BuildRequires:      python%{python3_pkgversion}-nose
 
 %description -n python%{python3_pkgversion}-%{modname}

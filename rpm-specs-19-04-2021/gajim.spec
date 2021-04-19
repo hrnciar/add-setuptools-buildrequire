@@ -54,6 +54,7 @@ Recommends:	python3-docutils
 Recommends:	/usr/bin/paplay
 
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 BuildRequires:	intltool
 BuildRequires:	desktop-file-utils
 BuildRequires:	libappstream-glib

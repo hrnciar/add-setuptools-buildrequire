@@ -19,6 +19,7 @@ test, or multiple tests, a specific number of times.
 %package -n python%{python3_pkgversion}-%{srcname}
 Summary:        %{summary}
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-pytest >= 3.6
 BuildRequires:  python%{python3_pkgversion}-setuptools_scm
 %{?python_provide:%python_provide python%{python3_pkgversion}-%{srcname}}

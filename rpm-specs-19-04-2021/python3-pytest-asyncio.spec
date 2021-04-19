@@ -16,6 +16,7 @@ Source0:        https://github.com/%{project_owner}/%{github_name}/archive/v%{ve
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 %if %{with tests}
 BuildRequires:  python3-pytest >= 5.4
 BuildRequires:  python3-coverage

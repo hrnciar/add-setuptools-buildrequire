@@ -27,6 +27,7 @@ Summary:        A python package that provides useful locks
 
 BuildRequires:  python3-six
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 # tests
 %if %{with pytests}
 BuildRequires:  python3-testtools

@@ -27,6 +27,7 @@ In particular, joblib offers:
 Summary:       %{summary}
 
 BuildRequires:  python3-devel
+BuildRequires:  %{py3_dist setuptools}
 BuildRequires:  %{py3_dist numpy}
 BuildRequires:  %{py3_dist lz4}
 BuildRequires:  %{py3_dist psutil} 

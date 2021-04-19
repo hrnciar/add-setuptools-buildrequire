@@ -37,6 +37,7 @@ Summary:        Python vSphere Client with a dialog interface
 %{?python_provide:%python_provide python%{python3_pkgversion}-pvc}
 BuildRequires: make
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-humanize
 BuildRequires:  python%{python3_pkgversion}-pyvmomi
 BuildRequires:  python%{python3_pkgversion}-requests

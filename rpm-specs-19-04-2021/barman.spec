@@ -11,6 +11,7 @@ Source1:    %{name}.cron
 Source2:    %{name}.logrotate
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 # https://docs.fedoraproject.org/en-US/packaging-guidelines/CronFiles/#_cron_job_files_packaging:
 Requires:       cronie

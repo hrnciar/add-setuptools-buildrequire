@@ -37,6 +37,7 @@ contains shared libraries and the command-line interface.
 Summary: Build system tools python library
 %{?python_provide:%python_provide python%{python3_pkgversion}-%{name}}
 BuildRequires: python%{python3_pkgversion}-devel
+BuildRequires: python%{python3_pkgversion}-setuptools
 BuildRequires: make
 Requires: python%{python3_pkgversion}-rpm
 Requires: python%{python3_pkgversion}-requests

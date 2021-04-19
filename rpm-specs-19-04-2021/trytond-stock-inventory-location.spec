@@ -14,6 +14,7 @@ Source0:        http://downloads.tryton.org/%{tryton_major}/%{pkgname}-%{version
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 Requires:       tryton(kernel) = %{tryton_major}
 Requires:       trytond-stock

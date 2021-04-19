@@ -12,6 +12,7 @@ Patch0:         0001-Use-the-system-copy-of-duktape.patch
 
 BuildRequires:  gcc
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
 BuildRequires:  duktape-devel
 

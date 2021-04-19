@@ -12,6 +12,7 @@ BuildArch:      noarch
 BuildRequires: make
 BuildRequires:  git
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-click
 BuildRequires:  python3-sphinx
 BuildRequires:  python3-slugify

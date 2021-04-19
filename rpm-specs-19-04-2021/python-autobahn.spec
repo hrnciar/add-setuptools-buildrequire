@@ -21,6 +21,7 @@ for Twisted and for writing servers and clients.
 Summary:        %{summary}
 
 BuildRequires:  python3-devel
+BuildRequires:  %py3_dist setuptools
 BuildRequires:  %py3_dist cffi
 BuildRequires:  %py3_dist mock
 BuildRequires:  %py3_dist pytest

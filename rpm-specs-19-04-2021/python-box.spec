@@ -20,6 +20,7 @@ added to a Box or BoxList object are converted automatically.
 Summary:        %{summary}
 
 BuildRequires:  python3-devel
+BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(pytest)
 BuildRequires:  python3dist(pytest-runner)
 BuildRequires:  python3dist(pytest-cov)

@@ -13,6 +13,7 @@ URL: https://github.com/gsnedders/python-%{srcname}
 Source0: %{url}/archive/v%{version}/%{srcname}-%{version}.tar.gz
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-pytest
 BuildRequires: python3-sphinx
 

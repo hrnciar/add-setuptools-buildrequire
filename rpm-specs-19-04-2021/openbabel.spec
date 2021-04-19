@@ -121,6 +121,7 @@ Perl wrapper for the Open Babel library.
 Summary: Python wrapper for the Open Babel library
 Requires: %{name}-libs%{?_isa} = %{version}-%{release}
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 %{?python_provide:%python_provide python3-%{name}}
 Obsoletes: python2-%{name} < 2.4.1-21
 

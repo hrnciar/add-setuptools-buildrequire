@@ -31,6 +31,7 @@ Patch4: python-ouimeaux-getchildren.patch
 
 BuildArch: noarch
 BuildRequires: python3-devel
+BuildRequires: %{py3_dist setuptools}
 BuildRequires: findutils
 BuildRequires: sed
 BuildRequires: coreutils

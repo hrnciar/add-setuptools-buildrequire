@@ -20,6 +20,7 @@ Summary:        The package autopep8 formats Python code based on the output of 
 
 %{?python_provide:%python_provide python3-%{pypi_name}}
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pycodestyle
 Requires:       python3-pycodestyle
 BuildRequires:  python3-toml

@@ -22,6 +22,7 @@ enable end-to-end encryption (E2EE).}
 %package -n python3-%{srcname}
 Summary:        %{summary}
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  pyproject-rpm-macros
 Requires:       python3-crypto
 

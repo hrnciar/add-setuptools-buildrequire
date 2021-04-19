@@ -19,6 +19,7 @@ BuildArch:      noarch
 
 BuildRequires:  git-core
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 %{?systemd_requires}
 BuildRequires: systemd
 BuildRequires: python3-sphinx

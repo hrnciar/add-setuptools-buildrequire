@@ -43,6 +43,7 @@ BuildRequires:  python3-astropy
 BuildRequires:  python3-astropy-helpers
 BuildRequires:  python3-beautifulsoup4
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-matplotlib-qt5
 BuildRequires:  python3-piexif
 BuildRequires:  python3-pillow

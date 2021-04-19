@@ -10,6 +10,7 @@ Source1:        https://raw.githubusercontent.com/Blosc/python-blosc/f3c5e341a25
 BuildRequires:  gcc
 BuildRequires:  blosc-devel >= 1.16.0
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  python%{python3_pkgversion}-numpy
 BuildRequires:  python%{python3_pkgversion}-psutil
 BuildRequires:  python%{python3_pkgversion}-cpuinfo

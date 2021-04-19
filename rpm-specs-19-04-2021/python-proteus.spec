@@ -12,6 +12,7 @@ Source0:        http://downloads.tryton.org/%{major}/%{module_name}-%{version}.t
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 # needed for tests
 #BuildRequires:  trytond-sqlite
 

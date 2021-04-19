@@ -10,6 +10,7 @@ URL: https://github.com/swidtags/rpm2swidtag
 Source0: https://github.com/swidtags/%{upstream_name}/releases/download/%{upstream_name}-%{version}/%{upstream_name}-%{version}.tar.gz
 BuildArch: noarch
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 # The following BuildRequires are only needed for check
 BuildRequires: python3
 BuildRequires: python3-rpm

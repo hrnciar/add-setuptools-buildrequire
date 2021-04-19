@@ -6,6 +6,7 @@ Source0: %pypi_source
 License: Python
 URL: http://pypi.python.org/pypi/pyserial
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildArch: noarch
 
 %global _description\

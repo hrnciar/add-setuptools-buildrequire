@@ -9,6 +9,7 @@ Source0:        https://files.pythonhosted.org/packages/source/g/%{name}/%{name}
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires: python3-configobj
 
 %description

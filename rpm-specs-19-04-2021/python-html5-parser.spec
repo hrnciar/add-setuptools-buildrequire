@@ -12,6 +12,7 @@ Source0:        https://files.pythonhosted.org/packages/source/h/%{srcname}/%{sr
 
 BuildRequires:  gcc
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  libxml2-devel
 BuildRequires:  pkgconf
 # For tests

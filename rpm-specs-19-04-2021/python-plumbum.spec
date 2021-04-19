@@ -16,6 +16,7 @@ BuildRequires:  python2-devel
 %endif # if with_python2
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-setuptools_scm
 BuildRequires:  python3-setuptools_scm+toml
 

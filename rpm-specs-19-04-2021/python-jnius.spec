@@ -16,6 +16,7 @@ BuildRequires: make
 BuildRequires:  gcc
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-Cython
 BuildRequires:  python3-six
 BuildRequires:  python3-pytest

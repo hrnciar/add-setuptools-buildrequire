@@ -15,6 +15,7 @@ Source:     %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 Patch0:     https://github.com/nwg-piotr/nwg-panel/pull/49.patch#/remove-executable-bit-from-svg-icons.patch
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 
 Requires:   gtk-layer-shell
 Requires:   gtk3

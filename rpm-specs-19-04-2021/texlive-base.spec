@@ -475,6 +475,7 @@ BuildRequires: libpaper-devel potrace-devel autoconf automake libtool
 BuildRequires: gmp-devel mpfr-devel
 # This is really for macros.
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 %if %{without bootstrap}
 # This is for xindy
 %if ! 0%{?eln}

@@ -17,6 +17,7 @@ Source0: %{url}/archive/v%{version}/%{srcname}-%{version}.tar.gz
 Patch0:  0000-Use-yaml.safe_load-instead-of-load.patch
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-pyramid
 BuildRequires: python3-pyyaml
 

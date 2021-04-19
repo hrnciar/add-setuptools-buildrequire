@@ -23,6 +23,7 @@ BuildArch:      noarch
 BuildRequires:  python3-sphinx
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-flask
 BuildRequires:  python3-sphinx
 

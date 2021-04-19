@@ -22,6 +22,7 @@ characters.
 %package -n python3-unidecode
 Summary:	US-ASCII transliterations of Unicode text
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 
 %{?python_provide:%python_provide python3-unidecode}
 

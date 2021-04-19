@@ -9,6 +9,7 @@ URL:            https://pagure.io/debrepo
 Source0:        https://files.pythonhosted.org/packages/source/d/%{srcname}/%{srcname}-%{version}.tar.gz
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 BuildArch:      noarch
 

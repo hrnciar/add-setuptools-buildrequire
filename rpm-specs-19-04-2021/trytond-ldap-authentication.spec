@@ -18,6 +18,7 @@ Patch1:         %{modname}-python3.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 Requires:       tryton(kernel) = %{tryton_major}
 Requires:       python3-ldap3

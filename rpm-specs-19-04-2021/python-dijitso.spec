@@ -11,6 +11,7 @@ Source2:        3083BE4C722232E28AD0828CBED06106DD22BAB3.key
 
 BuildRequires:  gnupg2
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  gcc-c++
 BuildRequires:  python3dist(pytest)
 BuildRequires:  python3dist(numpy)

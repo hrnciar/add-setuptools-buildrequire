@@ -8,6 +8,7 @@ URL:		http://poez.io
 Source0:    https://lab.louiz.org/%{name}/%{name}/-/archive/v%{version}/%{name}-v%{version}.tar.bz2
 
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 BuildRequires:	gcc
 Requires:       python3-slixmpp
 Requires:       python3-inotify

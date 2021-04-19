@@ -19,6 +19,7 @@ PyXDG is a python library to access freedesktop.org standards.
 %package -n python%{python3_pkgversion}-pyxdg
 Summary:        Python3 library to access freedesktop.org standards
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 %if %{with check}
 # These are needed for the nose tests.
 BuildRequires:  python%{python3_pkgversion}-nose

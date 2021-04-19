@@ -7,6 +7,7 @@ URL:            http://construct.readthedocs.org
 Source0:        https://pypi.python.org/packages/source/c/construct/construct-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3-devel >= 3.6
+BuildRequires:  python3-setuptools
 #BuildRequires:  python3-pytest
 
 %global _description\

@@ -21,6 +21,7 @@ BuildRequires:  libbtbb-devel
 BuildRequires:  libpcap-devel
 BuildRequires:  libusb1-devel
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  systemd
 Requires:       lib%{name}%{?_isa} = %{version}-%{release}
 Recommends:     %{name}-specan-ui = %{version}-%{release}

@@ -23,6 +23,7 @@ BuildRequires:  pkgconfig(libzstd) >= 1.0.0
 BuildRequires:  asciidoc, xmlto
 BuildRequires:  systemd
 BuildRequires:  python3-devel >= 3.4
+BuildRequires:  python3-setuptools
 
 %description
 The btrfs-progs package provides all the userspace programs needed to create,

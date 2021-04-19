@@ -14,6 +14,7 @@ Patch0:         %{name}-5.4.0-system.patch
 BuildArch:      noarch
 BuildRequires: make
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  desktop-file-utils
 BuildRequires:  python3-sphinx
 

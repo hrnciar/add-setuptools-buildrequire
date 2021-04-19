@@ -9,6 +9,7 @@ Source0:        %{pypi_source}
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-setuptools_scm
 Requires:       python3-atomicwrites
 Requires:       python3-configobj

@@ -15,6 +15,7 @@ Patch1:		winpdb-colorterm-fix.patch
 Patch2:		winpdb-ensure-all-params-of-DES.new-are-set-to-byte.patch
 BuildArch:	noarch
 BuildRequires: 	python3-devel, desktop-file-utils
+BuildRequires: 	python3-setuptools
 Requires:	python3-crypto, python3-wxpython4
 Provides:	winpdb-reborn = %{version}-%{release}
 

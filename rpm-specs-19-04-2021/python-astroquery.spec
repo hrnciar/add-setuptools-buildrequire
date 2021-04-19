@@ -14,6 +14,7 @@ BuildArch:      noarch
 BuildRequires:  python3-astropy
 BuildRequires:  python3-beautifulsoup4
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-html5lib
 BuildRequires:  python3-keyring
 BuildRequires:  python3-pyvo

@@ -31,6 +31,7 @@ Patch203:       https://github.com/jazzband/imaplib2/pull/15.patch
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  asciidoc
 BuildRequires:  make
 BuildRequires:  gzip

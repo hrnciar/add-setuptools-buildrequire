@@ -12,6 +12,7 @@ BuildArch:          noarch
 
 BuildRequires:      GeoIP
 BuildRequires:      python3-devel
+BuildRequires:      python3-setuptools
 BuildRequires:      python3-nose
 
 %global _description\

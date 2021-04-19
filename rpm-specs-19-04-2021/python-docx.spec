@@ -24,6 +24,7 @@ Summary:	Create and update Microsoft Word .docx files
 Requires:       python3-lxml
 %{?python_provide:%python_provide python3-%{pname}}
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 BuildRequires:	python3-lxml
 #Testing requirements
 BuildRequires:	python3-pyparsing	>= 2.0.1

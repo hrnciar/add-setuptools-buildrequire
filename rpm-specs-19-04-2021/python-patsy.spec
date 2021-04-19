@@ -27,6 +27,7 @@ Patch4: patsy-warn-doc.patch
 BuildArch: noarch
 BuildRequires: make
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 
 %description
 %{common_description}

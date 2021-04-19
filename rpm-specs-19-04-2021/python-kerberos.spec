@@ -13,6 +13,7 @@ Source0:        https://pypi.python.org/packages/source/k/%{srcname}/%{srcname}-
 Source1:        LICENSE
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  krb5-devel
 BuildRequires:  gcc
 

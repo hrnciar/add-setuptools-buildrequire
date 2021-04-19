@@ -15,6 +15,7 @@ BuildArch:      noarch
 BuildRequires: make
 BuildRequires:  python3-sphinx
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-nose
 BuildRequires:  python3-sphinx
 

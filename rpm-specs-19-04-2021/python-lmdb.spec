@@ -16,6 +16,7 @@ Patch1:         tests-disable-gh-issue-160.patch
 BuildRequires:  gcc
 BuildRequires:  python3-cffi
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-nose
 BuildRequires:  lmdb-devel
 

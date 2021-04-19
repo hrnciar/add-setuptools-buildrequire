@@ -28,6 +28,7 @@ URL:            https://github.com/ninia/%{srcname}
 Source0:        %{url}/archive/v%{version}.tar.gz
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-numpy
 
 BuildRequires:  java-devel

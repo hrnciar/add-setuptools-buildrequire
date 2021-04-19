@@ -12,6 +12,7 @@ Source0: https://github.com/theojulienne/%{srcname}/archive/%{version}.tar.gz#/%
 BuildArch: noarch
 
 BuildRequires:  python3-devel
+BuildRequires:  %{py3_dist setuptools}
 
 # required for check
 BuildRequires: %{py3_dist six}

@@ -20,6 +20,7 @@ Summary: CPAN front-end for upt
 %{?python_provide:%python_provide python3-%{srcname}}
 
 BuildRequires: python%{python3_pkgversion}-devel
+BuildRequires: python%{python3_pkgversion}-setuptools
 BuildRequires: python%{python3_pkgversion}-requests-mock
 %if %{with tests}
 BuildRequires: upt

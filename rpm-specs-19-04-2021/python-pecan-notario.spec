@@ -12,6 +12,7 @@ Patch0001: 0001-exceptions-webob-1.7-compat.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
 BuildRequires:  python3-notario
 BuildRequires:  python3-pecan

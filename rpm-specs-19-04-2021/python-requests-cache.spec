@@ -13,6 +13,7 @@ BuildArch:      noarch
 
 # Python 3 is default
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-requests
 BuildRequires:  python3-sphinx
 

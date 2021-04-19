@@ -85,6 +85,7 @@ Obsoletes:      python2-%{github_name} < %{version}-%{release}
 %endif # obsolete2
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
 # cache has been built into pytest since 2.8.0. Unfortunately, el7
 # has 2.7.0...

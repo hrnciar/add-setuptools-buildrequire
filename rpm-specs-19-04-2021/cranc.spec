@@ -15,6 +15,7 @@ BuildRequires:	python3-pytest
 BuildRequires:	python3-black
 %endif
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 Requires:	python3-click
 Requires:	python3-libpagure
 Requires:	python3-requests

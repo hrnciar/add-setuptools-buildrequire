@@ -17,6 +17,7 @@ Patch0:         setup-typing-exists-since-Python-35.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-pycares
 
 %description

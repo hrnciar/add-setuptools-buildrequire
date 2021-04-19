@@ -18,6 +18,7 @@ URL:        https://github.com/ValvePython/vdf
 Source0:    %{url}/archive/v%{version}/%{pypi_name}-%{version}.tar.gz
 
 BuildRequires: python3-devel
+BuildRequires: python3dist(setuptools)
 BuildRequires: python3dist(mock)
 BuildRequires: python3dist(pytest-cov) >= 2.7.0
 BuildRequires: python3dist(pytest)

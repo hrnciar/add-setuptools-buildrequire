@@ -14,6 +14,7 @@ BuildArch:      noarch
 ExclusiveArch:  noarch x86_64
 %endif
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  /usr/bin/2to3
 
 

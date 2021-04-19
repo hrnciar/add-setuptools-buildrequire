@@ -35,6 +35,7 @@ BuildArch: noarch
 %package -n python3-mmtf
 Summary: %{summary}
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 %if %{with check}
 BuildRequires: python3-msgpack
 BuildRequires: python3-nose

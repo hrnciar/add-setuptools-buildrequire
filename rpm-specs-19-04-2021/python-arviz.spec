@@ -23,6 +23,7 @@ model checking, and comparison.}
 %package -n python3-%{srcname}
 Summary:        %{summary}
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description -n python3-%{srcname} %_description
 

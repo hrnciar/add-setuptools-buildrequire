@@ -13,6 +13,7 @@ URL:        https://github.com/Matoking/protontricks
 Source0:    %{pypi_source %{name}}
 
 BuildRequires: python3-devel > 3.5
+BuildRequires: python3dist(setuptools)
 BuildRequires: python3dist(setuptools-scm)
 BuildRequires: python3dist(vdf) >= 2.4
 %if %{with tests}

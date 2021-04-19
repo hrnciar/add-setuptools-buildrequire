@@ -21,6 +21,7 @@ BuildRequires: python3-pymongo-gridfs
 BuildRequires: python3-sphinx
 BuildRequires: python3-sphinx_rtd_theme
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-readthedocs-sphinx-ext
 BuildRequires: make
  

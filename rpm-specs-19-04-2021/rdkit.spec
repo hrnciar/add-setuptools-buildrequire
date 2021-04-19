@@ -37,6 +37,7 @@ BuildRequires:  swig
 BuildRequires:  java-devel
 BuildRequires:  junit
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  boost-python3-devel
 BuildRequires:  catch-devel
 

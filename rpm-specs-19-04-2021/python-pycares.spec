@@ -17,6 +17,7 @@ BuildRequires:  python3-cffi
 # for docs
 BuildRequires:  python3-sphinx
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-sphinx_rtd_theme
 
 %description

@@ -17,6 +17,7 @@ Source0:        https://github.com/%{owner}/%{srcname}/archive/%{commit}/%{srcna
 BuildArch:      noarch
 BuildRequires: make
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 
 %description

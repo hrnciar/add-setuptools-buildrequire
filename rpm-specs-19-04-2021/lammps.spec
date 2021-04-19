@@ -28,6 +28,7 @@ BuildRequires:  python%{python3_pkgversion}-mpi4py-openmpi
 BuildRequires:  mpich-devel
 BuildRequires:  python%{python3_pkgversion}-mpi4py-mpich
 BuildRequires:  python%{python3_pkgversion}-devel
+BuildRequires:  python%{python3_pkgversion}-setuptools
 BuildRequires:  fftw3-devel
 BuildRequires:  zlib-devel
 BuildRequires:  gsl-devel

@@ -14,6 +14,7 @@ URL: https://github.com/Pylons/%{srcname}
 Source0: %{url}/archive/%{version}/%{srcname}-%{version}.tar.gz
 
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 
 
 %description

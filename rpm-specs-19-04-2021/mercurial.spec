@@ -20,6 +20,7 @@ BuildRequires: gcc
 BuildRequires: gettext
 BuildRequires: pkgconfig
 BuildRequires: python3-devel
+BuildRequires: python3-setuptools
 BuildRequires: python3-docutils
 
 Provides: hg = %{version}-%{release}

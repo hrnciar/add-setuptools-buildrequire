@@ -8,6 +8,7 @@ Source0:        https://github.com/devttys0/%{name}/archive/v%{version}/%{name}-
 Patch0:         fix_version.patch
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 # For tests
 BuildRequires:  python3-nose python3-coverage
 # Optional, for graphs and visualizations

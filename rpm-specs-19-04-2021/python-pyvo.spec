@@ -42,6 +42,7 @@ BuildRequires:  python3-astropy
 BuildRequires:  python3-astropy-helpers
 BuildRequires:  python3-dateutil
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-requests
 BuildRequires:  python3-six
 # Needed to generate docs

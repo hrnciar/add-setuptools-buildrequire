@@ -21,6 +21,7 @@ fancy HTML5 slideshows.
 Summary:	%{summary}
 
 BuildRequires:	python3-devel
+BuildRequires:	python3-setuptools
 BuildRequires:	python3-sphinx
 
 %{?python_provide:%python_provide python3-%{srcname}}

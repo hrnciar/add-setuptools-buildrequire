@@ -11,6 +11,7 @@ BuildRequires:  gcc
 BuildRequires:  gcc-c++
 BuildRequires:  hunspell-devel
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 # make it build with hunspell-1.5:
 Patch0: pyhunspell-0.5.0-hunspell15.patch

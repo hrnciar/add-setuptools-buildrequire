@@ -13,6 +13,7 @@ Patch0:         Pyped-1.4-encoding.patch
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 Pyped is a command-line tool that let you process another command

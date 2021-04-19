@@ -8,6 +8,7 @@ URL:            https://github.com/vstakhov/libucl
 Source0:        %{url}/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  make
 BuildRequires:  gcc
 BuildRequires:  libtool

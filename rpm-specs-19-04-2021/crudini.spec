@@ -16,6 +16,7 @@ BuildRequires:  python-iniparse
 Requires:       python-iniparse
 %else
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  python3-iniparse >= 0.3.2
 Requires:       python3-iniparse >= 0.3.2
 %endif

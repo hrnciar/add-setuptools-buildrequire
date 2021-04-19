@@ -14,6 +14,7 @@ Source1:        https://github.com/redodo/formats/blob/master/LICENSE
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 %description
 Support multiple formats with ease.

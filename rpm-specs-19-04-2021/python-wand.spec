@@ -12,6 +12,7 @@ Source0:        https://github.com/emcconville/%{srcname}/archive/%{version}.tar
 
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       ImageMagick
 
 Patch0:         load-library.patch

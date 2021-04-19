@@ -20,6 +20,7 @@ BuildRequires:  gtest-devel
 BuildRequires:  python3-pytest
 BuildRequires:  pybind11-devel
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 BuildRequires:  xtensor-devel
 BuildRequires:  python3-numpy
 
