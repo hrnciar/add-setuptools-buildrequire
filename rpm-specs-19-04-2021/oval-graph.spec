@@ -1,0 +1,126 @@
+%global name        oval-graph
+%global module      oval_graph
+
+Summary:            Tool for visualization of SCAP rule evaluation results
+Name:               %{name}
+Version:            1.2.5
+Release:            1%{?dist}
+# The entire source code is ASL 2.0 except schemas/ which is Public Domain
+License:            ASL 2.0 and Public Domain
+
+Url:                https://pypi.org/project/%{name}/
+Source0:            https://files.pythonhosted.org/packages/source/o/%{name}/%{module}-%{version}.tar.gz
+
+BuildArch:          noarch
+
+BuildRequires:      python3-devel, python3-setuptools
+Requires:           python3-lxml
+
+%description
+Oval_graph is a tool that displays the results of evaluating SCAP rules.
+In the form of a tree according to the OVAL standard. Using the
+`arf-to-graph` command, you can simply view the result of rule.
+Use `arf-to-json` to generate a rule result in json. Using the
+`json-to-graph` command, you can view the results of rules from json file.
+
+%{?python_enable_dependency_generator}
+
+%prep
+%autosetup -n %{module}-%{version}
+
+%build
+%py3_build
+
+%install
+%py3_install
+
+%files
+%license LICENSE
+%doc README.md
+%{python3_sitelib}/%{module}/
+%{python3_sitelib}/%{module}-*.egg-info/
+%{_bindir}/arf-to-graph
+%{_bindir}/arf-to-json
+%{_bindir}/json-to-graph
+
+%changelog
+* Tue Feb 23 2021 Packit Service <user-cont-team+packit-service@redhat.com> - 1.2.5-1
+- 1.2.5 (Jan Rodak)
+- Removes unnecessary parameter verbose (Jan Rodak)
+- Creates tests for search rules ids (Jan Rodak)
+- Updates referenc result data json (Jan Rodak)
+- Reworks clients uint tests (Jan Rodak)
+- Fixes problem displaying test information (Jan Rodak)
+- Appends missing gif to css (Jan Rodak)
+- Fixes errors in the browser console (Jan Rodak)
+- Moves client tests to a separate directory (Jan Rodak)
+- Fixes imports in tests (Jan Rodak)
+- Reworks classes for processing commands (Jan Rodak)
+- Reworks the client class and create children according to input and output (Jan Rodak)
+- Moves client parts to a separate directory (Jan Rodak)
+- Fixes problem with entry points (Jan Rodak)
+- Fixes links (Jan Rodak)
+- Adds information about test suite (Jan Rodak)
+- Fixes tests and removes skip missing lib (Jan Rodak)
+- Creates requirements (Jan Rodak)
+- Creates flake8 config (Jan Rodak)
+- Creates tox config (Jan Rodak)
+- Fix loading of ARF results when comment node is missing. (Gabriel Becker)
+- Updates gitignore (Jan Rodak)
+
+* Tue Jan 26 2021 Fedora Release Engineering <releng@fedoraproject.org> - 1.2.4-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_34_Mass_Rebuild
+
+* Thu Dec 10 2020 Packit Service <user-cont-team+packit-service@redhat.com> - 1.2.4-1
+- 1.2.4 (Jan Rodak)
+- Disables the auto-opening of the web browser for tests (Jan Rodak)
+- Implements auto close web browser for tests (Jan Rodak)
+- Removes the use of sys.argv in the project (Jan Rodak)
+- Creates search base (Jan Rodak)
+- Implements imput for search (Jan Rodak)
+
+* Mon Nov 09 2020 Packit Service <user-cont-team+packit-service@redhat.com> - 1.2.3-1
+- new upstream release: 1.2.3
+
+* Mon Oct 12 2020 Packit Service <user-cont-team+packit-service@redhat.com> - 1.2.2-1
+- new upstream release: 1.2.2
+
+* Mon Sep 21 2020 Packit Service <user-cont-team+packit-service@redhat.com> - 1.2.1-1
+- new upstream release: 1.2.1
+
+* Thu Sep 03 2020 rebase-helper <rebase-helper@localhost.local> - 1.2.0-1
+- new upstream release: 1.2.0
+
+* Tue Jul 28 2020 Fedora Release Engineering <releng@fedoraproject.org> - 1.1.1-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
+
+* Mon Jun 29 2020 Jan Rodak <jrodak@redhat.com> - 1.1.1-3
+- Update BuildRequires
+
+* Tue May 26 2020 Miro Hrončok <mhroncok@redhat.com> - 1.1.1-2
+- Rebuilt for Python 3.9
+
+* Fri Apr 17 2020 Jan Rodak <jrodak@redhat.com> - 1.1.1-1
+- release 1.1.1
+
+* Fri Apr 17 2020 Jan Rodak <jrodak@redhat.com> - 1.1.0-2
+- Fixes the required dependency
+
+* Wed Apr 15 2020 Jan Rodak <jrodak@redhat.com> - 1.1.0-1
+- release 1.1.0
+
+* Mon Mar 09 2020 Jan Rodak <jrodak@redhat.com> - 1.0.1-1
+- release 1.0.1
+
+* Mon Mar 09 2020 Jan Rodak <jrodak@redhat.com> - 1.0.0-1
+- release 1.0.0
+
+* Wed Jan 22 2020  Jan Rodak <jrodak@redhat.com> - 0.1.2-1
+- Improved performance
+- New commands
+
+* Wed Nov 13 2019  Jan Rodak <jrodak@redhat.com> - 0.0.2-1
+- Changed CR+LF to LF line endings.
+
+* Wed Oct 23 2019  Jan Rodak <jrodak@redhat.com> - 0.0.1-1
+- Initial version of the package.

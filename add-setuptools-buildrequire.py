@@ -19,7 +19,7 @@ def scan_file(spec_name):
         "%py3_dist (.*)": 0,
         "%{libo_python}-(.*)": 0, #libreoffice
     }
-    inpath = f"{os.getcwd()}/rpm-specs-19-03-2021/{spec_name}.spec"
+    inpath = f"{os.getcwd()}/rpm-specs-19-04-2021/{spec_name}.spec"
     with open(inpath, "r") as infile:
         for line in infile:
             for type_of_br in types_of_br:
@@ -32,7 +32,7 @@ def scan_file(spec_name):
 
 def add_buildrequire(spec_name, type_of_br_regex):
     count = 0
-    inpath = f"{os.getcwd()}/rpm-specs-19-03-2021/{spec_name}.spec"
+    inpath = f"{os.getcwd()}/rpm-specs-19-04-2021/{spec_name}.spec"
     with tempfile.NamedTemporaryFile('w', delete=False) as outfile:
         with open(inpath, "r") as infile:
             for line in infile:
