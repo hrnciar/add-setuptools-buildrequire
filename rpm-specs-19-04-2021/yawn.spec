@@ -21,7 +21,7 @@ Patch0: fix-shebang-lines.patch
 Patch1: python-3-support.patch
 Patch2: fix-requires.patch
 
-BuildRequires:  httpd, python3-devel
+BuildRequires:  httpd, python3-devel, python3-setuptools
 Requires:       python3-mod_wsgi, python3-pywbem, httpd, python3-werkzeug, python3-mako
 BuildArch:      noarch
 

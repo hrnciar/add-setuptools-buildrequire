@@ -41,7 +41,7 @@ BuildRequires:  python3-numpy, vim-common, libatomic
 %if %{with wireshark}
 BuildRequires:  wireshark-devel, libgcrypt-devel, gnutls-devel
 %endif
-BuildRequires:  python3-mako, python3-requests, python3-devel, tar
+BuildRequires:  python3-mako, python3-requests, python3-devel, python3-setuptools, tar
 %if ! %{with binary_firmware}
 BuildRequires:  sdcc sed
 %endif

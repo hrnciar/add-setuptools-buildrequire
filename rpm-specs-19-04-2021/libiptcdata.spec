@@ -15,6 +15,7 @@ BuildRequires:  gettext-devel
 BuildRequires:  libtool
 BuildRequires:  gtk-doc
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 
 
 %description
